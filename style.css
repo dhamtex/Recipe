@@ -1,0 +1,120 @@
+ /* Base */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #f8f9fa, #eef2f3);
+}
+
+/* Container */
+.container {
+    max-width: 900px;
+    margin: 30px auto;
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+}
+
+/* Headings */
+h1 {
+    text-align: center;
+    color: #d35400;
+}
+
+h2 {
+    color: #2c3e50;
+}
+
+/* Description */
+.description {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 1.1rem;
+}
+
+/* Card base */
+.card {
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    transition: all 0.3s ease;
+}
+
+/* Hover effect */
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+/* Card backgrounds */
+.details {
+    background-color: #f9f9f9;
+}
+
+.ingredients {
+    background-color: #fffaf0;
+}
+
+.instructions {
+    background-color: #f0f8ff;
+}
+
+.preview {
+    background-color: #f7f7ff;
+}
+
+/* Layout */
+.main-content {
+    display: flex;
+    gap: 20px;
+}
+
+.ingredients, .instructions {
+    flex: 1;
+}
+
+/* Image */
+.preview img {
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 10px;
+    transition: transform 0.3s ease;
+}
+
+.preview img:hover {
+    transform: scale(1.03);
+}
+
+/* Lists */
+ul, ol {
+    padding-left: 20px;
+}
+
+/* Tips */
+.tips {
+    background-color: #fff3cd;
+    border-left: 5px solid #ffc107;
+}
+
+/* Nutrition */
+.nutrition {
+    background-color: #eafaf1;
+    border-left: 5px solid #2ecc71;
+}
+
+/* Links */
+a {
+    color: #2980b9;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #e67e22;
+}
+
+/* Source */
+.source {
+    text-align: center;
+    margin-top: 20px;
+}

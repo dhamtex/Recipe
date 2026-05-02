@@ -4,13 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jollof Rice Recipe</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <h1>Jollof Rice</h1>
-    <p><em>A popular Nigerian dish made with rice cooked in a rich tomato, and pepper sauce.</em></p>
+<div class="container">
 
-    <section>
+    <h1>Jollof Rice</h1>
+    <p class="description">
+        <em>A popular Nigerian dish made with rice cooked in a rich tomato and pepper sauce.</em>
+    </p>
+
+    <section class="details card">
         <h2>Recipe Details</h2>
         <p><strong>Prep Time:</strong> 20 minutes</p>
         <p><strong>Cook Time:</strong> 45 minutes</p>
@@ -18,49 +23,64 @@
         <p><strong>Difficulty:</strong> <mark>Medium</mark></p>
     </section>
 
-    <section>
+   
+    <section class="preview card">
         <h2>Dish Preview</h2>
-        <img src="Images/jollof.jpg" alt="Plate of Nigerian Jollof Rice" width="400" height="300">
+        <img src="images/jollof.jpg" alt="Plate of Nigerian Jollof Rice">
     </section>
 
-    <section>
-        <h2>Ingredients</h2>
-        <ul>
-            <li>2 cups long grain rice</li>
-            <li>4 fresh tomatoes</li>
-            <li>2 red bell peppers</li>
-            <li>1 onion</li>
-            <li>2 tablespoons tomato paste</li>
-            <li>2 seasoning cubes</li>
-            <li>1 teaspoon thyme</li>
-            <li>1 teaspoon curry powder</li>
-            <li>Vegetable oil</li>
-            <li>Salt to taste</li>
-        </ul>
-    </section>
+    
+    <div class="main-content">
 
-    <section>
-        <h2>Instructions</h2>
-        <ol>
-            <li>Blend tomatoes, peppers, and onions into a smooth mixture.</li>
-            <li>Heat oil in a pot and fry the tomato paste for a few minutes.</li>
-            <li>Add the blended mixture and cook until it thickens.</li>
-            <li>Add seasoning, spices, and water, then bring to a boil.</li>
-            <li>Add washed rice, stir, cover, and cook until rice is soft.</li>
-        </ol>
-    </section>
+        <section class="ingredients card">
+            <h2>Ingredients</h2>
+            <ul>
+                <li>2 cups long grain rice</li>
+                <li>4 fresh tomatoes</li>
+                <li>2 red bell peppers</li>
+                <li>1 onion</li>
+                <li>2 tablespoons tomato paste</li>
+                <li>2 seasoning cubes</li>
+                <li>1 teaspoon thyme</li>
+                <li>1 teaspoon curry powder</li>
+                <li>Vegetable oil</li>
+                <li>Salt to taste</li>
+            </ul>
+        </section>
 
-    <section>
+        <section class="instructions card">
+            <h2>Instructions</h2>
+            <ol>
+                <li>Blend tomatoes, peppers, and onions into a smooth mixture.</li>
+                <li>Heat oil and fry tomato paste for a few minutes.</li>
+                <li>Add blended mixture and cook until thick.</li>
+                <li>Add seasoning, spices, and water. Bring to boil.</li>
+                <li>Add rice, stir, cover, and cook until soft.</li>
+            </ol>
+        </section>
+
+    </div>
+
+   
+    <section class="tips card">
         <h2>Tips</h2>
-        <p><u>For smoky flavor</u>, allow the rice to slightly burn at the bottom (party jollof style).</p>
+        <p><u>For smoky flavor</u>, allow slight burning at the bottom (party jollof style).</p>
     </section>
 
-    <section>
+    
+    <section class="nutrition card">
         <h2>Nutrition Facts</h2>
         <p>Calories: 500 | Protein: 10g | Carbs: 80g</p>
     </section>
 
-    <p>Source: <a href="https://www.allnigerianrecipes.com" target="_blank">All Nigerian Recipes</a></p>
+    <p class="source">
+        Source: 
+        <a href="https://www.allnigerianrecipes.com" target="_blank">
+            All Nigerian Recipes
+        </a>
+    </p>
+
+</div>
 
 </body>
 </html>
